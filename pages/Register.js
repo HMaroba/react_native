@@ -4,7 +4,7 @@ import { View, TextInput, Button, StyleSheet , Text} from 'react-native';
 const RegistrationForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState(0);
+  const [phoneNumber, setPhoneNumber] = useState('');
   const [password, setPassword] = useState('');
 
   const handleRegister = () => {
